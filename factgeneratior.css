@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.fact {
+  color: white;
+  height: 100px;
+  font-size: 25px;
+  overflow: auto;
+}
+
+#factBtn {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#factBtn:hover {
+  background-color: #ffb700;
+  color: white;
+}
+
+.madeby {
+  color: #ffffff;
+}
+
